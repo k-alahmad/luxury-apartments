@@ -12,13 +12,14 @@ import marina from "../assets/images/nearby/marina.webp";
 import moe from "../assets/images/nearby/moe.webp";
 import dwc from "../assets/images/nearby/dwc.webp";
 import jumeirah from "../assets/images/nearby/jumeirah.webp";
+import future from "../assets/images/nearby/future.webp";
 export const projectsData = [
 	{
 		id: 1,
 		ProjectName: { en: "Jacob & Co", ar: "جاكوب" },
 		HeaderTitle: {
 			en: "Iconic Skyscraper Designed by Jacob & Co ",
-			ar: "فلل فاخرة جدا من تلال الغاف",
+			ar: "ناطحة سحاب مميزة من تصميم جاكوب و شركاءه",
 		},
 		HeaderTitleTow: {
 			en: "Greenary",
@@ -27,11 +28,11 @@ export const projectsData = [
 		HeaderImage: projectOneHeader,
 		InfoTitle: {
 			en: "Live in the Closest Residential Point to Space",
-			ar: "فلل فاخرة جدا من تلال الغاف",
+			ar: "إغتنم فرصة العيش في أعلى و أقرب برج سكني للفضاء",
 		},
 		InfoSubTitle: {
 			en: "Designed by Jacob & Co, this Residences building will become the planet's closest residential point to space. Feel your best, enjoying the unique service, original design, and exclusivity of the project.",
-			ar: "استمتع بإطلالات بانورامية على بحيرة الغاف البكر بينما تنغمس في أسلوب حياة فاخر حقًا",
+			ar: "سيصبح هذا المبنى السكني مصمم من قبل شركة جاكوب و شركاءه أقرب نقطة سكنية للفضاء على كوكب الأرض. أستمتع بالخدمة الفريدة و التصميم الأصلي و الحصرية لهذا المشروع ",
 		},
 		InfoData: [
 			{
@@ -52,33 +53,33 @@ export const projectsData = [
 		],
 		Nearby: [
 			{
-				Duration: "24",
-				Place: { en: "Palm Jumeirah ", ar: "" },
-				Image: jumeirah,
+				Duration: "11",
+				Place: { en: "Muesem of Future", ar: "متحف المستقبل" },
+				Image: future,
 			},
 			{
-				Duration: "24",
-				Place: { en: "Dubai Marina", ar: "" },
+				Duration: "27",
+				Place: { en: "Dubai Marina", ar: "دبي مارينا" },
 				Image: marina,
 			},
 			{
 				Duration: "20",
-				Place: { en: "DWC Airport", ar: "" },
-				Image: dwc,
+				Place: { en: "Palm Jumeirah", ar: "نخلة جميرا" },
+				Image: jumeirah,
 			},
 			{
-				Duration: "30",
-				Place: { en: "DXB Airport", ar: "" },
+				Duration: "20",
+				Place: { en: "DXB Airport", ar: "مطار دبي الدولي" },
 				Image: dxb,
 			},
 			{
-				Duration: "21",
-				Place: { en: "Dubai Downtown", ar: "" },
+				Duration: "10",
+				Place: { en: "Dubai Downtown", ar: "وسط دبي (برج خليفة)" },
 				Image: downtown,
 			},
 			{
 				Duration: "20",
-				Place: { en: "Mall of Emirates", ar: "" },
+				Place: { en: "Mall of Emirates", ar: "مول الامارات" },
 				Image: moe,
 			},
 		],
@@ -89,16 +90,16 @@ export const projectsData = [
 		ProjectName: { en: "One River Point", ar: "One River Point" },
 		HeaderTitle: {
 			en: "A high-end urban escape that captures the mood and rhythm of Dubai",
-			ar: "نص عربي للمشروع الثاني أي شي",
+			ar: "مبنى حضاري فاخر يلتقط الإيقاع الفريد لمدينة دبي",
 		},
 		HeaderImage: projectTwoHeader,
 		InfoTitle: {
 			en: "Overlooking the mesmerizing Dubai Canal & Burj Khalifa",
-			ar: "عنوان المشروع الثاني",
+			ar: "يطل على قناة دبي الساحرة و برج خليفة",
 		},
 		InfoSubTitle: {
 			en: "The residential project presents an array of world-class amenities that cater to the wellness-oriented and sophisticated lifestyle of its residents. The amenities are celebrated as an exclusive zone combining various spaces through a striking formal expression that adds a touch of architectural distinction and visual appeal.",
-			ar: "شرح مبسط عن المشروع الثاني ",
+			ar: "يقدم المشروع السكني مجموعة من وسائل الراحة على مستوى عالمي تلبي نمط حياة سكانه الموجه نحو العافية والأناقة. تُحتفى بوسائل الراحة كمنطقة حصرية تجمع بين مختلف الفضاءات من خلال تعبير فني بارز يضيف لمسة من التميز المعماري والجاذبية البصرية. ",
 		},
 		InfoData: [
 			{
@@ -119,33 +120,33 @@ export const projectsData = [
 		],
 		Nearby: [
 			{
-				Duration: "24",
-				Place: { en: "Palm Jumeirah ", ar: "" },
-				Image: jumeirah,
+				Duration: "20",
+				Place: { en: "Muesem of Future", ar: "متحف المستقبل" },
+				Image: future,
 			},
 			{
-				Duration: "24",
-				Place: { en: "Dubai Marina", ar: "" },
+				Duration: "27",
+				Place: { en: "Dubai Marina", ar: "دبي مارينا" },
 				Image: marina,
 			},
 			{
-				Duration: "20",
-				Place: { en: "DWC Airport", ar: "" },
-				Image: dwc,
+				Duration: "28",
+				Place: { en: "Palm Jumeirah", ar: "نخلة جميرا" },
+				Image: jumeirah,
 			},
 			{
-				Duration: "30",
-				Place: { en: "DXB Airport", ar: "" },
+				Duration: "20",
+				Place: { en: "DXB Airport", ar: "مطار دبي الدولي" },
 				Image: dxb,
 			},
 			{
-				Duration: "21",
-				Place: { en: "Dubai Downtown", ar: "" },
+				Duration: "18",
+				Place: { en: "Dubai Downtown", ar: "وسط دبي (برج خليفة)" },
 				Image: downtown,
 			},
 			{
 				Duration: "20",
-				Place: { en: "Mall of Emirates", ar: "" },
+				Place: { en: "Mall of Emirates", ar: "مول الامارات" },
 				Image: moe,
 			},
 		],
