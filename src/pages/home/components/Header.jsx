@@ -11,7 +11,7 @@ const Header = ({ selectedProject, setSelectedProject }) => {
 					<img
 						src={projectsData[selectedProject].HeaderImage}
 						alt={projectsData[selectedProject].HeaderTitle.en}
-						className='rounded-lg h-full w-full object-cover origin-center'
+						className='rounded-lg h-full w-full object-cover origin-center '
 					/>
 					<div className='absolute w-full h-full bg-primary/30 rounded-lg top-0 left-0' />
 					<p className='absolute left-0 w-full top-1 p-1 text-[30px] font-bold sm:text-big lg:text-bigger text-white text-center '>

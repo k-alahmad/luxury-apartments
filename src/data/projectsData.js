@@ -1,4 +1,4 @@
-import projectOneHeader from "../assets/images/binghatti.webp";
+import projectOneHeader from "../assets/images/binghatti2.webp";
 
 import projectTwoHeader from "../assets/images/elingtton.webp";
 import locationIcon from "../assets/icons/location-icon.svg";

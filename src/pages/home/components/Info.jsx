@@ -12,10 +12,10 @@ const Info = ({ selectedProject }) => {
 				<p className='text-[14px] text-center md:w-[50%] mt-4 mb-4'>
 					{projectsData[selectedProject].InfoSubTitle[i18n.language]}
 				</p>
-				<div className='flex max-sm:flex-col sm:gap-x-6 mt-4 max-sm:space-y-2 '>
+				<div className='flex max-sm:flex-col sm:gap-x-6 lg:gap-x-16 mt-4 max-sm:space-y-2 '>
 					{projectsData[selectedProject].InfoData.map((item, index) => {
 						return (
-							<div className='flex items-center gap-x-10 ' key={index}>
+							<div className='flex items-center gap-x-2 ' key={index}>
 								<img
 									src={item.Icon}
 									alt={item.Title}
